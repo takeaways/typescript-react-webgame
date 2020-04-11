@@ -1,0 +1,33 @@
+{
+	"name": "typescript-react-webgame",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack",
+		"start": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nomadGeonilJang/typescript-react-webgame.git"
+	},
+	"author": "GeonilJang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nomadGeonilJang/typescript-react-webgame/issues"
+	},
+	"homepage": "https://github.com/nomadGeonilJang/typescript-react-webgame#readme",
+	"dependencies": {
+		"@types/react": "^16.9.34",
+		"@types/react-dom": "^16.9.6",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-hot-loader": "^4.12.20",
+		"typescript": "^3.8.3"
+	},
+	"devDependencies": {
+		"awesome-typescript-loader": "^5.2.1",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11"
+	}
+}
