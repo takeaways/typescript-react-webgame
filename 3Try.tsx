@@ -1,11 +1,10 @@
-import * as React from "react";
+import * as React from 'react';
+import { FunctionComponent } from 'react';
 
+import { TryInfo } from './3BaseBall';
 
-const Try = () => {
-    return (
-        <>
-        </>
-    )
-}
+const Try: FunctionComponent<{ tryInfo: string }> = ({ tryInfo }) => {
+	return <li>{tryInfo}</li>;
+};
 
-export default Try
+export default Try;
